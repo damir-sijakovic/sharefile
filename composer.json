@@ -1,0 +1,27 @@
+{
+    "name": "dsijak/sharefile",
+    "description": "Share files protected with access token.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Damir Šijaković",
+            "email": "damir.sijakovic@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {        
+        "files": [
+                "project/Etc/init.php"
+            ],
+        "psr-4": {
+            "Sharefile\\": "project"
+        }
+    }
+}
+
+
+
+
